@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared tags, id and classes starts here */
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+}
+.section{
+    max-width: 1280px;
+    border-radius: 16px;
+    margin: 100px auto;
+}
+.text-primary{
+    color: #0D1321;
+}
+.text-center{
+    text-align: center;
+}
+.section-description{
+    font-size: 16px;
+    opacity: .7;
+    line-height: 25px;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    line-height: 37px;
+}
+/* Shared tags, id and classes ends here */
+
+/* Header section starts here */
+.header-container{
+    max-width: 1280px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-btn{
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(13, 19, 33, 0.02);
+    border: none;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: .3s;
+}
+.header-btn:hover{
+    color: white;
+    background-color: #0D1321;
+    transition: .3s;
+}
+/* Header section ends here */
+
+/* Hero section starts here */
+.hero-section{
+    height: 650px;
+    background-image: url("../assets/hero-bg.png");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.hero-titile{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    line-height: 68px;
+}
+.hero-description{
+    font-size: 16px;
+    opacity: .7;
+    margin-bottom: 32px;
+    line-height: 25px;
+}
+.btn{
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    background-color: #0D1321;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    font-family: "Azeret Mono", monospace;
+    text-decoration: none;
+    transition: .3s;
+}
+.btn:hover{
+    background-color:  rgb(13, 19, 33, 0.02);
+    color: rgb(13, 19, 33);
+    transition: .3s;
+}
+/* Hero section ends here */
+
+/* Service section starts here */
+.service{
+    max-width: 1280px;
+    margin:  0 auto;
+    background-color: rgb(13, 19, 33, 0.02);
+    padding: 80px 0;
+}
+.service-header{
+    margin-bottom: 48px;
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 0 50px;
+    padding: 48px;
+    background-color: white;
+    margin-bottom: 32px;
+    border-radius: 16px;
+}
+.service-content-text{
+    width: 65%;
+}
+.service-content-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    opacity: .7;
+    margin-bottom: 16px;
+}
+.service-content-text p{
+    margin-bottom: 50px;
+}
+.service-btn{
+    color: #0D1321;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(13, 19, 33, 0.02);
+    font-family: "Azeret Mono", monospace;
+    border: 2px solid #0d1321;
+    transition: .3s;
+}
+.service-btn:hover{
+    color: white;
+    background-color: #0D1321;
+    transition: .3s;
+}
+/* Service section ends here */
+
+/* Inspiration section starts here */
+.inspiration-header{
+    margin-bottom: 48px;
+}
+.inspiration-content{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+}
+.inspiration-content iframe{
+    border-radius: 16px;
+}
+/* Inspiration section ends here */
+
+/* Current target section starts here */
+.current-target-header{
+    margin-bottom: 48px;
+}
+.current-target-container{
+    display: flex;
+    gap: 50px;
+}
+.current-target-content{
+    padding: 40px;
+    border-radius: 16px;
+    width: 30%;
+    text-align: justify;
+}
+.current-img{
+    margin-bottom: 24px;
+}
+.current-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.current-description{
+    color: rgb(13, 19, 33, .7);
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.current-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+.current-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.current-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.current-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/* Current target section ends here */
+
+/* Next target section starts here */
+.next-target-header{
+    margin-bottom: 48px;
+}
+.next-target-content{
+    display: flex;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: justify;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-bottom: 24px;
+    background: rgb(255, 255, 255);
+}
+.next-img{
+    margin-bottom: 24px;
+}
+.next-img img{
+    width: 120px;
+    margin-right: 50px;
+}
+.next-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.next-description{
+    color: rgb(13, 19, 33, .7);
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.next-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+/* Next target section ends here */
+
+/* Support section starts here */
+.support{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.support-content{
+    padding: 64px 48px;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.support-description{
+    color: rgb(255, 255, 255, .7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+input[type="text"]{
+    width: 500px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 10px 15px;
+    background: rgb(255, 255, 255);
+    outline: none;
+}
+input[type="text"]::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+}
+input[type="submit"]{
+    width: 120px;
+    height: 48px;
+    padding: 10px 15px;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/* Support section ends here */
+
+/* Footer section starts here */
+.footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-bottom: 0;
+}
+.footer-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.footer-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+}
+.footer-icon img{
+    margin-left: 10px;
+}
+/* Footer section ends here */
+
+
+
+
+/* ===============Responsive design starts here (For mobile)====================== */
+.hide{
+display: none;
+}
+@media screen and (max-width:576px){
+.hero-section,
+.current-target,
+.next-target{
+    padding: 0 20px;
+}
+.header-container{
+    flex-direction: column;
+    gap: 25px;
+}
+.hero-section{
+    height: auto;
+    margin-top: 50px;
+}
+.hero-description{
+    text-align: justify;
+}
+.service-container{
+    max-width: 100%;
+}
+.service-header{
+    width: 100%;
+}
+.service-content{
+    flex-direction: column;
+    padding: 20px;
+}
+.service-content-text{
+    width: 100%;
+}
+.inspiration-content > iframe{
+    max-width: 100%;
+}
+.current-target-container{
+    flex-direction: column;
+}
+.current-target-content{
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+.next-target-content {
+    flex-direction: column;
+}
+.support{
+    margin:  0 20px;
+}
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.footer-container{
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-text{
+    text-align: center;
+}
+}
+/* ===============Responsive design ends here (For mobile)====================== */
+
+
+/* ===============Responsive design starts here (For tablet)====================== */
+@media screen and (min-width:576px) and (max-width:992px) {
+.header-container,
+.hero-section,
+.current-target,
+.next-target,
+.footer{
+    padding: 0 25px;
+}
+.service-content,
+.current-target-container{
+    flex-direction: column;
+}
+.inspiration-content{
+    width: 100%;
+}
+.inspiration-content iframe{
+    width: 100%;
+}
+.current-target-content{
+    width: calc(100% - 80px);
+}
+.inspiration, .support{
+    margin: 25px;
+}
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 10px;
+}
+}
+/* ===============Responsive design ends here (For tablet)====================== */
